@@ -45,5 +45,16 @@ public class Main {
             System.out.println("Если возраст человека равен " + years + ", то он может отдохнуть.");
         }
         System.out.println(" ");
+
+        System.out.println("Задание 5:");
+        byte childrenAge = 14;
+        if (childrenAge < 5){
+            System.out.println("Если возраст ребенка равен " + childrenAge + ", то ему нельзя кататься на аттракционе.");
+        } else if (childrenAge >= 5 && childrenAge < 14){
+            System.out.println("Если возраст ребенка равен " + childrenAge + ", то ему можно кататься на аттракционе в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else {
+            System.out.println("Если возраст ребенка равен " + childrenAge + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
+        }
+        System.out.println(" ");
     }
 }
